@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Python",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "-m",
+                "py_compile",
+                "src/main.py"
+            ]
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                // "cd",
+                // "__pycache__",
+                "main.cpython-39.pyc"
+            ],
+            "dependsOn":["Compile Python"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
