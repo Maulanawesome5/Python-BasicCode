@@ -22,8 +22,7 @@ print(f'Difference set data {diff_set}')
 # Jika dibalik set2.difference(set1) maka hasilnya akan berbeda
 
 # Operasi Beda Setangkup / Symmetric Difference
-# menghasilkan set baru berupa data yang hanya ditemui di salah satu set
-# atau bisa disebut (UNIQUE SET)
+# menampilkan nilai yang tidak kembar/berpotongan antara sekian set data
 sim_diff = set1.symmetric_difference(set2)
 print(f'Symmetrical Difference set data {sim_diff}')
 
