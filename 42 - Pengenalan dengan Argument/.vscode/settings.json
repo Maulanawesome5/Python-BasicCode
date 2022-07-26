@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 16,
+    "code-runner.runInTerminal": true,
+    "python.defaultInterpreterPath": "C://Users//lenovo//AppData//Local//Programs//Python//Python310//python",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.colorTheme": "Noctis Minimus",
+    "workbench.iconTheme": "vscode-icons",
+}
